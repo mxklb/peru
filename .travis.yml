@@ -1,0 +1,23 @@
+language: ruby
+rvm:
+  - 2.3.3
+
+before_script:
+  - ls -la
+  - npm install
+  - npm install -g gulp
+
+# Assume bundler is being used, therefore
+# the `install` step will run `bundle install` by default.
+script:
+  - gulp jekyll-build
+  - ls -la _site/
+
+after_success:
+  - chmod +x deploy.sh
+  - bash ./deploy.sh
+
+branches:
+  only: master
+
+sudo: false # route your build to the container-based infrastructure for a faster build
