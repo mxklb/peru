@@ -1,9 +1,9 @@
 {
-  "name": "Sri-Lanka",
+  "name": "Peru",
   "version": "1.0.0",
   "description": "A personal backpacker blog",
   "main": "index.js",
-  "repository": "https://github.com/mxklb/srilanka",
+  "repository": "https://github.com/mxklb/peru",
   "author": "mxklb",
   "license": "MIT",
   "dependencies": {
