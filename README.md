@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/mxklb/peru.svg?branch=master)](https://travis-ci.org/mxklb/peru)
 
-Check it out here -> [mxklb.github.io/peru](https://mxklb.github.io/peru/)
+Check it out -> [mxklb.github.io/peru](https://mxklb.github.io/peru/)
 
 ## development
 
